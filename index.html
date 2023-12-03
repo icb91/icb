@@ -4,23 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmin's Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sulat+Rizal&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #16140d;
             color: #278067;
             font-family: 'Sulat Rizal', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .container {
-            width: 80%;
-            max-width: 1200px;
             text-align: center;
+            margin: 0;
         }
 
         .box {
@@ -30,26 +21,12 @@
             border-radius: 10px;
         }
 
-        .left-box, .right-box {
-            text-align: left;
-            margin-bottom: 10px;
-        }
-
-        .right-box p {
-            text-align: left;
-            line-height: 1.6;
-        }
-
         .contact-box {
             background-color: #003b31;
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
             cursor: pointer;
-        }
-
-        .italic-text {
-            font-style: italic;
         }
 
         @media (max-width: 768px) {
@@ -62,18 +39,18 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="box left-box">
-            <h1 style="font-size: 2em;" class="italic-text">Hey There!</h1>
-        </div>
-        <div class="box right-box">
-            <p>
-                I am Cosmin, a highly motivated and detail-oriented tech enthusiast based in Romania. With a profound passion for programming and ethical hacking, I excel in collaborative tech environments. Proficient in Linux, databases, and adept at programming in C and Python, I possess a strong foundation in cybersecurity. My commitment to excellence is complemented by a constant pursuit of knowledge. I aspire to leverage my skills to make a significant impact in the dynamic realm of technology. Outside of the tech world, I prioritize my family, finding a harmonious balance between personal and professional pursuits.
-            </p>
-        </div>
-        <div class="box contact-box" onclick="location.href='mailto:cosmin.ioanitescu@gmail.com';">
-            <p style="font-size: 1.5em;">Let's Talk!</p>
-        </div>
+    <div class="box">
+        <h1 style="font-size: 2em; font-style: italic;">Hey There!</h1>
+    </div>
+
+    <div class="box">
+        <p>
+            I am Cosmin, a highly motivated and detail-oriented tech enthusiast based in Romania. With a profound passion for programming and ethical hacking, I excel in collaborative tech environments. Proficient in Linux, databases, and adept at programming in C and Python, I possess a strong foundation in cybersecurity. My commitment to excellence is complemented by a constant pursuit of knowledge. I aspire to leverage my skills to make a significant impact in the dynamic realm of technology. Outside of the tech world, I prioritize my family, finding a harmonious balance between personal and professional pursuits.
+        </p>
+    </div>
+
+    <div class="box contact-box" onclick="location.href='mailto:cosmin.ioanitescu@gmail.com';">
+        <p style="font-size: 1.5em;">Let's Talk!</p>
     </div>
 
 </body>
